@@ -1,0 +1,26 @@
+
+// --- --- --- Font --- --- ---
+
+@mixin fs($size) {
+
+  @if $size == 'small' {
+    font-size: $font-small;
+  }
+
+  @if $size == 'base' {
+    font-size: $font-base;
+  }
+
+  @if $size == 'base-plus' {
+    font-size: $font-base-plus;
+  }
+
+  @if $size == 'big-minus' {
+    font-size: $font-big-minus;
+  }
+
+  @if $size == 'big' {
+    font-size: $font-big;
+  }
+
+}
